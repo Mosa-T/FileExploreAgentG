@@ -19,7 +19,7 @@ public class FileExploreAgent {
 
 
         URL myURL = new URL("http://localhost:8080/job/FileExplorer/buildWithParameters");
-        String user = "Heyhey"; // username
+        String user = "Musa-T"; // username
             String pass = "115072a888c151f50f6e01cee3f1d0ea1b"; // password or API token
             String authStr = user + ":" + pass;
             String encoding = Base64.getEncoder().encodeToString(authStr.getBytes("utf-8"));
